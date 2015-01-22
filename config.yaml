@@ -20,9 +20,6 @@ menu:
       - Name: "About"
         Url: '/about/'
         Weight: 2
-      - Name: "Culture"
-        Url: '/culture/'
-        Weight: 3
       - Name: "Careers"
         Url: '/careers/'
         Weight: 4
