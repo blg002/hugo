@@ -17,9 +17,6 @@ menu:
       - Name: "Blog"
         Url: '/blog/'
         Weight: 1
-      - Name: "About"
-        Url: '/about/'
-        Weight: 2
       - Name: "Careers"
         Url: '/careers/'
         Weight: 4
