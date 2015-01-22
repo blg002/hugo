@@ -1,0 +1,13 @@
+<!doctype html>
+
+<meta charset=utf-8>
+<title>Careers ☃ ☕☕☕</title>
+
+{{ template "partials/styles.html" . }}
+{{ template "partials/nav.html" . }}
+
+
+{{ range first 5 .Data.Pages }}
+  <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+  {{ .Summary }}
+{{ end }}

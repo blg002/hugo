@@ -1,0 +1,12 @@
+<ul class="nav">
+  <li><a href="/">Home</a></li>
+  {{ $currentNode := . }}
+  {{ range .Site.Menus.main }}
+    {{ .Pre }}
+    <li class="{{if $currentNode.IsMenuCurrent "main" . }}active{{end}}">
+      <a href="{{.Url}}">
+        {{ .Name }}
+      </a>
+    </li>
+  {{end}}
+</ul>

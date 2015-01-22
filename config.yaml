@@ -1,0 +1,28 @@
+baseurl: http://example.com/
+canonifyurls: false
+languageCode: en-us
+title: my new hugo site
+publishdir: build
+
+MetaDataFormat: yaml
+permalinks:
+  blog: /blog/:year/:month/:day/:slug/
+pluralizeListTitles: false
+
+disableRSS: false
+disableSitemap: true
+
+menu:
+  main:
+      - Name: "Blog"
+        Url: '/blog/'
+        Weight: 1
+      - Name: "About"
+        Url: '/about/'
+        Weight: 2
+      - Name: "Culture"
+        Url: '/culture/'
+        Weight: 3
+      - Name: "Careers"
+        Url: '/careers/'
+        Weight: 4
